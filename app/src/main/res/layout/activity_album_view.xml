@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerbackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B07986CB" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpagerTop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:clipToPadding="false"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="100dp"
+        android:paddingBottom="100dp"
+        android:layout_gravity="center" />
+    <Button
+        android:id="@+id/btnSelectFolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        android:text="Choose Folder"
+
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnAuto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        android:text="Auto change"
+
+        android:layout_gravity="bottom|right"
+        android:layout_margin="20dp"
+        />
+</FrameLayout>

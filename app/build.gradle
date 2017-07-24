@@ -26,5 +26,9 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.0.0'
     compile 'com.github.bumptech.glide:glide:3.7.0'
+
+    //compile 'net.rdrei.android.dirchooser:library:3.2@aar'
+    compile 'lib.kashif:folderpicker:2.2'
+
     testCompile 'junit:junit:4.12'
 }
