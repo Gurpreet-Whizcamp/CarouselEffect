@@ -1,9 +1,8 @@
-package com.carouseleffect;
+package com.azwallpaper;
 
 import android.content.Context;
 import android.support.v4.view.ViewCompat;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
 import android.view.View;
 
 public class CarouselEffectTransformer implements ViewPager.PageTransformer {

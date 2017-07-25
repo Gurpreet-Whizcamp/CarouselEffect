@@ -1,4 +1,4 @@
-package com.carouseleffect;
+package com.azwallpaper;
 
 import android.content.Context;
 import android.support.v4.view.PagerAdapter;

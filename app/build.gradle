@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
     defaultConfig {
-        applicationId "com.carouseleffect"
+        applicationId "com.azwallpaper"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
@@ -28,7 +28,11 @@ dependencies {
     compile 'com.github.bumptech.glide:glide:3.7.0'
 
     //compile 'net.rdrei.android.dirchooser:library:3.2@aar'
+    // for the file choose
     compile 'lib.kashif:folderpicker:2.2'
+    //for the floating menu
+    compile 'com.nightonke:boommenu:2.1.0'
+
 
     testCompile 'junit:junit:4.12'
 }
