@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "728682533646",
+    "firebase_url": "https://vineyardphoto-1177.firebaseio.com",
+    "project_id": "vineyardphoto-1177",
+    "storage_bucket": "vineyardphoto-1177.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728682533646:android:80bd08f067deb9ab",
+        "android_client_info": {
+          "package_name": "com.azwallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728682533646-rn6o8bo4eti8h8vjcgqr3o402d93mkvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxR1WHh40-lfgyGKA_tkkqsbTJ096tDKI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

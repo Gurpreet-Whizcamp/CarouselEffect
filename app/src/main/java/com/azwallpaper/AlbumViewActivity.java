@@ -18,6 +18,7 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.utils.PreferencesKeys;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -41,6 +42,8 @@ public class AlbumViewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_album_view);
+
+        App.sharePrefrences.setPref(PreferencesKeys.strUserId,"123123");
 
         init();
         //  setupViewPager();
